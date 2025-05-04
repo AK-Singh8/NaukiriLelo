@@ -4,7 +4,7 @@ import { Input } from '../ui/input';
 import { Button } from '../ui/button';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import AdminJobstable from './AdminJobstable';
+import AdminJobstable from './AdminJobsTable';
 import useGetAllAdminJobs from '@/hooks/useGetAllAdminJobs';
 import { setSearchJobByText } from '@/redux/jobSlice';
 import { motion } from 'framer-motion'; // Import Framer Motion
