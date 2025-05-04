@@ -3,7 +3,7 @@ import jobSlice from "./jobSlice";
 import authslice from "./authSlice";
 import companySlice from "./companySlice";
 import {
-    persistStore,
+    // persistStore,
     persistReducer,
     FLUSH,
     REHYDRATE,
