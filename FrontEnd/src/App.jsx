@@ -2,7 +2,7 @@ import { BrowserRouter, createBrowserRouter, RouterProvider } from "react-router
 import Home from "./components/Home"
 import Login from "./components/auth/Login"
 import Signup from "./components/auth/Signup"
-import Jobs from "./components/shared/jobs"
+import Jobs from "./components/shared/Jobs"
 import Browse from "./components/shared/Browse"
 import Profile from "./components/shared/Profile"
 import JobDesc from "./components/shared/JobDesc"
