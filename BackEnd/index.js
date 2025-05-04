@@ -16,8 +16,12 @@ const port = process.env.Port || 3000
 app.use(express.json())//from here
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
+// const  corOptions = {
+//     origin: 'http://localhost:5173',
+//     credentials: true
+// }
 const  corOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://naukirilelo-backend-pjsv.onrender.com',
     credentials: true
 }
 app.use(cors(corOptions))//to here
